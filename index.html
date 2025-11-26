@@ -3,23 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <title>水豚卡皮巴拉 幸運輪盤</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1.css">
 </head>
 <body>
 
-<dt class="標1"> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;恭喜你！</dt>	
-<dt class="標2">&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;中獎的是...</dt>
+<div class="layout">
 
-<div class="wheel-container">
-    <!-- 固定箭頭 -->
-    <div class="arrow-left"></div>
+    <!-- 左邊：輪盤區 -->
+    <div class="left-area">
+        <div class="wheel-container">
+            <canvas id="wheel" width="700" height="700"></canvas>
+            <div class="arrow-left"></div>
+        </div>
+        <button id="spinBtn" class="spin-btn">開始抽獎</button>
+    </div>
 
-    <!-- 旋轉的輪盤 -->
-    <canvas id="wheel" width="700" height="700"></canvas>
+    <!-- 右邊：文字區 -->
+    <div class="right-area">
+        <dt class="標1">恭喜你！</dt>
+        <dt class="標2">中獎的是...</dt>
+    </div>
+
 </div>
 
-<br><br>
-<button id="spinBtn" style="width:120px;height:40px;font-size:20px;">開始抽獎</button>
 <script src="script.js"></script>
-</body>
-</html>
+</body></html>
