@@ -1,6 +1,5 @@
 body {
     background-image: url(001.jpg);
-	background-size: contain;
     text-align: center;
     font-family: Arial, sans-serif;
 
@@ -50,6 +49,7 @@ body {
 	top: 280px; 
 
 }
+
 
 
 
