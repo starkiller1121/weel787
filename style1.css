@@ -71,10 +71,11 @@ body {
 }
 
 .標1, .標2 {
-    font-family: "ㄅ字嗨注音黑體 Heavy";
+    font-family: "ㄅ字嗨注音黑體";
     font-size: 60px;
     margin: 0;
     color: black;
     line-height: 1.2;
 
 }
+
